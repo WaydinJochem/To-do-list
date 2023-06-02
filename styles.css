@@ -1,0 +1,36 @@
+main {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.display {
+    background-image: linear-gradient(gray, grey);
+    padding: 5%;
+}
+h1{
+    padding: 2%;
+    text-align: center;
+    background-image: url(./Assets/images/41477_2019_374_Figa_HTML\ \(1\).jpg);
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+div button {
+    padding: auto;
+    font-size: x-large;
+    border: 2px #333 solid;
+    border-radius: 5%;
+    box-shadow: 1px 1px black;
+}
+input{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-left: 3px black solid;
+    border-top: 3px black solid;
+    border-radius: 2%;
+    width: 50%;
+    font-size: large;
+    padding-left: 2%;
+    box-shadow: none;
+}
