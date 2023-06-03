@@ -3,27 +3,34 @@ main {
     width: 50%;
     margin: auto;
 }
+
 .display {
     background-image: linear-gradient(gray, grey);
     padding: 5%;
 }
-h1{
+
+h1 {
     padding: 2%;
     text-align: center;
     background-image: url(./Assets/images/41477_2019_374_Figa_HTML\ \(1\).jpg);
 }
+
 .center {
     display: flex;
     justify-content: center;
+
 }
+
 div button {
+    width: fit-content;
     padding: auto;
     font-size: x-large;
     border: 2px #333 solid;
     border-radius: 5%;
     box-shadow: 1px 1px black;
 }
-input{
+
+input {
     margin-left: 5px;
     margin-right: 5px;
     border-left: 3px black solid;
@@ -34,15 +41,22 @@ input{
     padding-left: 2%;
     box-shadow: none;
 }
+
 /* to-do list items */
 .list-item {
     background-color: cadetblue;
     padding: 2%;
     margin-top: 3%;
-    border-radius: 2% ;
+    border-radius: 2%;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto ;
 }
-#x {
-    padding: 0%;
+
+#check{
+    
+}
+
+#sake {
+    width: fit-content;
+    margin-left: auto;
 }
