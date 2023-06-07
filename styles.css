@@ -1,3 +1,7 @@
+body {
+    background-image: linear-gradient(to left, dodgerblue, blue, dodgerblue);
+}
+
 #add {
     padding: 1%;
     font-size: larger;
